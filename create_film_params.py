@@ -26,7 +26,7 @@ def create_film_params(*args,npol = 4,make_film = "both"):
     elif (make_film == "no"):
         nrows = int(npol)
     else:
-        ValueError("Invalid make_film string")
+        raise ValueError("Invalid make_film string")
     params = np.rec.array(None,dtype=("int,object,bool,float,float,float,float,float,float,float,float"),shape =nrows)
     j = 0 # tuple product indexing
     p = 0 # polarization list indexing
