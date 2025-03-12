@@ -24,5 +24,3 @@ doi https://doi.org/10.1021/acsphotonics.7b01477
 
 Code is provided on an "as is" basis and the user assumes responsibility for its use.
 
-Andrew Salij 
-andrewsalij@gmail.com 
